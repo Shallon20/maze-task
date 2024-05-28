@@ -1,0 +1,12 @@
+# maze solutions:
+(52, 903, 1763)
+
+#Dijkstra Algorithm
+#time complexity: O((R x C) log (R x C))
+Insertion into priority queue is O(log N) where N is the number of elements in priority queue
+Extracting element from priority queue is O(log N)
+Traversing the grid: number of cells in maze is R x C where R is number of rows  and C is for columns
+Since each cell is pushed and popped into priority queue, complexity becomes O((R x C) log(R x C))
+
+
+#space complexity: O( R x C)
